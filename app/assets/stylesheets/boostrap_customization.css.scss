@@ -1,15 +1,29 @@
-@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+
 $body-bg: #FFF;
-$font-family-sans-serif:                'Lato', 'Helvetica', sans-serif;
+$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-inverse-bg: #6C7A89;
 $navbar-inverse-link-color: #FFF;
 $navbar-inverse-link-hover-color: #E4F1FE;
 $navbar-inverse-brand-hover-color: #E4F1FE;
-
+$section-1-color: #f7da64;
+$section-2-color: #ec795e;
+$section-3-color: #ea7f6a;
+$section-4-color: #5cbfaa;
+$section-5-color: #64d0bf;
+$section-6-color: #f7da64;
 
 @import 'bootstrap';
+
+body {
+  padding-top: 90px; 
+  /* sticky footer height*/
+  margin-bottom: 50px;
+  margin: 0px;
+  height: 300px;
+}
+
 
 
 .textcenter {
@@ -43,3 +57,29 @@ $navbar-inverse-brand-hover-color: #E4F1FE;
   vertical-align: middle;
   font-size: 15px;
 }
+
+.intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+
+
+
