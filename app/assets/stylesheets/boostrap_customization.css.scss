@@ -1,47 +1,23 @@
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-
-$body-bg: #ECECEC;
-$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$body-bg: #FFF;
+$font-family-sans-serif:                'Lato', 'Helvetica', sans-serif;
 $navbar-inverse-bg: #6C7A89;
 $navbar-inverse-link-color: #FFF;
 $navbar-inverse-link-hover-color: #E4F1FE;
 $navbar-inverse-brand-hover-color: #E4F1FE;
-$well-bg: #FFF;
-$jumbotron-bg: #FFF;
 
 
 @import 'bootstrap';
 
-body {
-  padding-top: 90px; 
-  /* sticky footer height*/
-  margin-bottom: 50px;
-}
-
-hr { display: block; height: 1px;
-    border: 0; border-top: 1px solid #6C7A89;
-    margin: 1em 0; padding: 0; }
-
-.h1w {
-	color: #FFF;
-}
-
-.h2w {
-  color: #6C7A89;
-}
-
-.body1w {
-	color: #34495e;
-}
 
 .textcenter {
 	text-align: center;
 }
 
 .navbar-brand {
-     font-weight: bold;
+     font-weight: lighter;
 }
 
 .vcenter {

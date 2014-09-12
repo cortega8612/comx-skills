@@ -7,29 +7,25 @@
   <%= csrf_meta_tags %>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-	<%= render 'layouts/header' %>
 
-	<div class="container">
+<body>	
+<!-- Header -->
 
-		<%= yield %>
-	</div>
+<%= render 'layouts/header' %>
 
-		<%= render 'layouts/footer' %>
+<!-- Content -->
 
-<!-- /container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-<script src="/js/jquery-1.11.1.min.js"></script> 
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/analytics_lib.js"></script>
-  <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/scrolling-nav.js"></script>
+<div class="container">
+	<%= yield %>
+</div>
 
-</script>
+<!-- Footer -->
 
-	
+<%= render 'layouts/footer' %>
+
+<!-- Scripts -->
+
+<%= render 'layouts/scripts' %>
+
 </body>
 </html>
