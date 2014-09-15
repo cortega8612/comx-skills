@@ -1,20 +1,39 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
 
 
 $body-bg: #FFF;
-$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-inverse-bg: #6C7A89;
+$font-family-sans-serif: 'Lato';
+$font-size-base: 14px;
+$navbar-inverse-bg: #ecf0f1;
 $navbar-inverse-link-color: #FFF;
-$navbar-inverse-link-hover-color: #E4F1FE;
-$navbar-inverse-brand-hover-color: #E4F1FE;
-$section-1-color: #f7da64;
-$section-2-color: #ec795e;
-$section-3-color: #ea7f6a;
-$section-4-color: #5cbfaa;
-$section-5-color: #64d0bf;
-$section-6-color: #f7da64;
+$navbar-inverse-link-hover-color: #d35400;
+
 
 @import 'bootstrap';
+
+ .navbar.transparent{
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(0,0,0,0.6);
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+  text-align: center;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
 
 body {
   padding-top: 90px; 
@@ -23,7 +42,6 @@ body {
   margin: 0px;
   height: 300px;
 }
-
 
 
 .textcenter {
@@ -56,28 +74,6 @@ body {
   text-align: center;
   vertical-align: middle;
   font-size: 15px;
-}
-
-.intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
-}
-
-.about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
-
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
 }
 
 

@@ -30,18 +30,103 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
+    height: 800px;
+    padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
-    background: #333;
-    background: url('7.1.JPG') no-repeat center center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
     background-size: cover;
     width: 100%;
+    font-family: Lato;
+ }
 
-}
+ .inddes-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #e67e22;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
 
-.about-section {
+ .entrepreneur-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
+
+ .photo-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
+
+ .master-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
+
+ .glass-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
+
+ .wood-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
+
+ .web-section {
+    height: 800px;
+    padding-top: 250px;
+    padding-bottom: 150px;
+    text-align: center;
+    color:#FFF;
+    background: #2c3e50;
+    /*background: url('7.1.JPG') no-repeat center center;*/
+    background-size: cover;
+    width: 100%;
+ }
+
+.conclusion-section {
     height: 100%;
     padding-top: 150px;
     padding-bottom: 150px;
