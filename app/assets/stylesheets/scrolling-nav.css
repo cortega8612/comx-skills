@@ -30,12 +30,12 @@ The padding is very important to make sure the scrollspy picks up the right area
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 800px;
-    padding-top: 250px;
+    height: 850px;
+    padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
-    color:#FFF;
-    background: #2c3e50;
+    color:#7f8c8d;
+    background: #ecf0f1;
     /*background: url('7.1.JPG') no-repeat center center;*/
     background-size: cover;
     width: 100%;
@@ -43,100 +43,158 @@ of those sections to manage the look and feel of the site. */
  }
 
  .inddes-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
-    text-align: center;
+    text-align: left;
     color:#FFF;
-    background: #e67e22;
+    background: #95a5a6;
     /*background: url('7.1.JPG') no-repeat center center;*/
     background-size: cover;
     width: 100%;
  }
 
  .entrepreneur-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-    background: #2c3e50;
+        background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #65D681),
+        color-stop(1, #26687A),
+        color-stop(1, #B1C24E)
+    );
+    background-image: -o-linear-gradient(bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);
+    background-image: -moz-linear-gradient(bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);
+    background-image: -webkit-linear-gradient(bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);
+    background-image: -ms-linear-gradient(bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);
+    background-image: linear-gradient(to bottom, #65D681 0%, #26687A 100%, #B1C24E 100%);
     /*background: url('7.1.JPG') no-repeat center center;*/
     background-size: cover;
     width: 100%;
  }
 
  .photo-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-    background: #2c3e50;
-    /*background: url('7.1.JPG') no-repeat center center;*/
+        background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #222F81),
+        color-stop(1, #26B0BF),
+        color-stop(1, #3E4C9B)
+    );
+    background-image: -o-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
+    background-image: -moz-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
+    background-image: -webkit-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
+    background-image: -ms-linear-gradient(bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
+    background-image: linear-gradient(to bottom, #222F81 0%, #26B0BF 100%, #3E4C9B 100%);
     background-size: cover;
     width: 100%;
  }
 
  .master-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-    background: #2c3e50;
-    /*background: url('7.1.JPG') no-repeat center center;*/
+    background: url('7.1.JPG') no-repeat center center;
     background-size: cover;
     width: 100%;
  }
 
  .glass-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
     background: #2c3e50;
-    /*background: url('7.1.JPG') no-repeat center center;*/
+    background: url('glass-me.jpg') no-repeat center center;
     background-size: cover;
     width: 100%;
  }
 
  .wood-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-    background: #2c3e50;
+        background-image: -webkit-gradient(
+            linear,
+            left top,
+            left bottom,
+            color-stop(0, #3B280B),
+            color-stop(1, #8F461F),
+            color-stop(1, #4A3C14)
+        );
+        background-image: -o-linear-gradient(bottom, #3B280B 0%, #8F461F 100%, #4A3C14 100%);
+        background-image: -moz-linear-gradient(bottom, #3B280B 0%, #8F461F 100%, #4A3C14 100%);
+        background-image: -webkit-linear-gradient(bottom, #3B280B 0%, #8F461F 100%, #4A3C14 100%);
+        background-image: -ms-linear-gradient(bottom, #3B280B 0%, #8F461F 100%, #4A3C14 100%);
+        background-image: linear-gradient(to bottom, #3B280B 0%, #8F461F 100%, #4A3C14 100%);
     /*background: url('7.1.JPG') no-repeat center center;*/
     background-size: cover;
     width: 100%;
  }
 
  .web-section {
-    height: 800px;
+    height: 850px;
     padding-top: 250px;
     padding-bottom: 150px;
     text-align: center;
     color:#FFF;
-    background: #2c3e50;
+        background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        right top,
+        color-stop(0, #3D3C3D),
+        color-stop(1, #000000),
+        color-stop(1, #292929)
+    );
+    background-image: -o-linear-gradient(top, #3D3C3D 0%, #000000 100%, #292929 100%);
+    background-image: -moz-linear-gradient(top, #3D3C3D 0%, #000000 100%, #292929 100%);
+    background-image: -webkit-linear-gradient(top, #3D3C3D 0%, #000000 100%, #292929 100%);
+    background-image: -ms-linear-gradient(top, #3D3C3D 0%, #000000 100%, #292929 100%);
+    background-image: linear-gradient(to top, #3D3C3D 0%, #000000 100%, #292929 100%);
     /*background: url('7.1.JPG') no-repeat center center;*/
     background-size: cover;
     width: 100%;
  }
 
 .conclusion-section {
-    height: 100%;
+    height: 850px;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
-    background: #eee;
+background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    right top,
+    color-stop(0, #FFFFFF),
+    color-stop(1, #F0F0F0),
+    color-stop(1, #E8E8E8)
+);
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%, #E8E8E8 100%);
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%, #E8E8E8 100%);
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%, #E8E8E8 100%);
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F0F0F0 100%, #E8E8E8 100%);
+background-image: linear-gradient(to top, #FFFFFF 0%, #F0F0F0 100%, #E8E8E8 100%);
 }
 
 
 .contact-section {
-    height: 100%;
+    height: 850px;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;

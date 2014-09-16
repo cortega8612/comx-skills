@@ -9,8 +9,19 @@
   <!-- Scrolling Nav JavaScript -->
     <script src="/js/jquery.easing.min.js"></script>
     <script src="/js/scrolling-nav.js"></script>
-
-
+ 
+  <!--  Buttons effects JavaScript -->
+<script src="/js/jquery.rippler.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(".rippler").rippler({
+    effectClass      :  'rippler-effect'
+    ,effectSize      :  16      // Default size (width & height)
+    ,addElement      :  'div'   // e.g. 'svg'(feature)
+    ,duration        :  400
+  });
+}); 
+</script>
 
 </script>
 
