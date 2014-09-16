@@ -76,6 +76,16 @@ body {
   font-size: 15px;
 }
 
+.block-text { 
+   color: black;  
+   background: rgba(255, 255, 255, 0.6);
+   padding: 18px;
+   margin-bottom: 80px;
+   -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+}
 
 
 
